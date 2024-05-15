@@ -1,5 +1,7 @@
 [build]
   command = "npm run build"
+  base = "my-portfolio"
+  publih = "build"
 
 [[redirects]]
   from = "/*"
