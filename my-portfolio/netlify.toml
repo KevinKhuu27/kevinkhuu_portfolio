@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "/my-portfolio/my-portfolio/build"
+  publish = "my-portfolio/my-portfolio/build/"
   base = "/"
 
 [[redirects]]
