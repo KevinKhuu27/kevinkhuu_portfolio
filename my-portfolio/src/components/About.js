@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container w-2/3 py-10 mx-auto text-center">
-        <div className="flex flex-col w-full mb-10">
+        <div className="flex flex-col w-full mb-10 mt-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             About Me
           </h1>
