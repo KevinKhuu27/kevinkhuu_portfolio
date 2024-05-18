@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -26,32 +28,30 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            title="map"
-            className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=Toronto&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-          />
-        </div>
+      <div className="container w-2/3 px-5 pb-20 mx-auto flex sm:flex-nowrap flex-wrap items-center justify-center">
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Contact
-          </h2>
-          <p className="leading-relaxed mb-5">
-            Feel free to leave a message!
-          </p>
-          <div className="relative mb-4">
+          className="md:flex flex-col md:w-full md:py-8 mt-8 md:mt-0 items-center">
+          <div className="flex flex-col w-full mb-10 mt-20 items-center">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+              Contact
+            </h1>
+            <hr className="my-4 w-1/4 mx-auto"></hr>
+          </div>
+          <div className="flex gap-4">
+            <a href="https://www.linkedin.com/in/kevin-khuu-273564277/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} size="3x" className="mb-4 text-white" />
+            </a>
+            <a href="https://github.com/KevinKhuu27" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} size="3x" className="mb-4 text-white" />
+            </a>
+            <a href="https://www.instagram.com/khuu.kevin27/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="3x" className="mb-4 text-white" />
+            </a>
+          </div>
+          <div className="w-1/3 relative mb-4 items-center">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
@@ -63,7 +63,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="relative mb-4">
+          <div className="w-1/3 relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
@@ -75,7 +75,7 @@ export default function Contact() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="relative mb-4">
+          <div className="w-1/3 relative mb-4">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">

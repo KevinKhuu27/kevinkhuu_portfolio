@@ -4,8 +4,8 @@ import { skills } from "../data";
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-10 mt-20">
+      <div className="container w-2/3 py-10 mx-auto">
+      <div className="flex flex-col w-full mb-10 mt-20 items-center">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
