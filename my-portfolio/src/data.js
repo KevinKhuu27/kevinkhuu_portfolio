@@ -3,7 +3,7 @@ export const projects = [
     title: "Salsa Club Management App",
     technology: "HTML, CSS, JavaScript, Python, Firebase",
     description:
-      "An application used to manage a Salsa Club. Incorporates the use of front-end and back-end technology. Includes a user interface for users to interact with. Utlizes Firebase to store and manage data.",
+      "An application used to manage a Salsa Club built using front-end and back-end technology. Includes the use of forms, databases, and password authentication.",
     demo: "https://cps-406-shops--salsa-studio.firebaseapp.com/",
     code: "https://github.com/minhTMUstudent/CPS406_iteration_2_41",
     image: "./project-4.gif",
