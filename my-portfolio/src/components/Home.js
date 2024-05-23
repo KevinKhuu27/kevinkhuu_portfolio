@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <section id="home">
       <div className="container w-2/3 mx-auto h-screen flex md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-6xl text-2xl mb-4 font-medium text-white">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">
             Hey, I'm Kevin.
           </h1>
           <p className="text-3xl text-white">Welcome to my portfolio!</p>
@@ -17,7 +17,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-2xl lg:w-2/3 md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"

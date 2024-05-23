@@ -10,8 +10,8 @@ export default function About() {
           </h1>
           <hr className="my-4 w-1/4 mx-auto"></hr>
         </div>
-        <div className="flex flex-wrap -m-4">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:pr-24 md:pr-16">
+        <div className="flex flex-wrap -m-4 justify-center items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 lg:pr-24 md:pr-16 justify-center">
             <img
               className="object-cover object-center rounded"
               alt="headshot"
