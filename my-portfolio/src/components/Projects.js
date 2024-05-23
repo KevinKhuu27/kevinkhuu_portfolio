@@ -16,7 +16,7 @@ export default function Projects() {
             <a
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex h-full relative">
                 <img
                   alt="project.gif"
                   className="absolute inset-0 w-full h-full object-cover object-center"
