@@ -5,7 +5,7 @@ export default function Home() {
     <section id="home">
       <div className="container w-2/3 mx-auto h-screen flex md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font sm:text-6xl text-2xl mb-4 font-medium text-white">
             Hey, I'm Kevin.
           </h1>
           <p className="text-3xl text-white">Welcome to my portfolio!</p>
