@@ -45,4 +45,5 @@ export const skills = [
   "CSS",
   "JavaScript",
   "React",
+  "Tailwind",
 ];
