@@ -5,10 +5,10 @@ export default function Home() {
     <section id="home">
       <div className="container w-2/3 mx-auto h-screen flex md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-16 gap-2 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font xl:text-6xl text-5xl mb-4 font-medium text-white">
             Hey, I'm Kevin.
           </h1>
-          <p className="text-3xl text-white">Welcome to my portfolio!</p>
+          <p className="xl:text-3xl text-2xl text-white">Welcome to my portfolio!</p>
           <div className="flex justify-center">
             <a
               href="#about"
@@ -18,7 +18,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-2xl lg:w-2/3 md:w-1/2 w-5/6">
+        <div className="lg:max-w-2xl xl:w-2/3 md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
             alt="hero"
