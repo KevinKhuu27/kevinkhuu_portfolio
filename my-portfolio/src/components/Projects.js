@@ -32,13 +32,15 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                   <a href={project.demo} className="px-2">
                     <button
-                      className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg">
+                      className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg
+                      transform transition duration-300 hover:scale-105 hover:shadow-lg">
                       Demo
                     </button>
                   </a>
                   <a href={project.code} className="px-2">
                     <button
-                      className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg">
+                      className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg
+                      transform transition duration-300 hover:scale-105 hover:shadow-lg">
                       Code
                     </button>
                   </a>

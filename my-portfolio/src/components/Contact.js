@@ -41,13 +41,13 @@ export default function Contact() {
             <hr className="my-4 w-1/4 mx-auto"></hr>
           </div>
           <div className="flex gap-4">
-            <a href="https://www.linkedin.com/in/kevin-khuu-273564277/" target="_blank" rel="noopener noreferrer">
+            <a className="transform transition duration-300 hover:scale-105 hover:shadow-lg" href="https://www.linkedin.com/in/kevin-khuu-273564277/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} size="3x" className="mb-4 text-white" />
             </a>
-            <a href="https://github.com/KevinKhuu27" target="_blank" rel="noopener noreferrer">
+            <a className="transform transition duration-300 hover:scale-105 hover:shadow-lg" href="https://github.com/KevinKhuu27" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} size="3x" className="mb-4 text-white" />
             </a>
-            <a href="https://www.instagram.com/khuu.kevin27/" target="_blank" rel="noopener noreferrer">
+            <a className="transform transition duration-300 hover:scale-105 hover:shadow-lg" href="https://www.instagram.com/khuu.kevin27/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} size="3x" className="mb-4 text-white" />
             </a>
           </div>
@@ -90,7 +90,8 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg
+            transform transition duration-300 hover:scale-105 hover:shadow-lg">
             Submit
           </button>
         </form>

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section id="home">
       <div className="container w-2/3 mx-auto h-screen flex md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-16 gap-2 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">
             Hey, I'm Kevin.
           </h1>
@@ -12,7 +12,8 @@ export default function Home() {
           <div className="flex justify-center">
             <a
               href="#about"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 my-4 focus:outline-none hover:bg-green-600 rounded text-lg
+              transform transition duration-300 hover:scale-105 hover:shadow-lg">
               View More
             </a>
           </div>

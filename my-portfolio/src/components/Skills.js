@@ -13,8 +13,8 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-full h-full sm:mx-auto sm:mb-2 -mx-2 justify-center gap-8">
           {skills.map((skill) => (
-            <div key={skill} className="w-64 h-full">
-              <div className="bg-gray-800 h-full rounded flex p-4 py-12 justify-center">
+            <div key={skill} className="w-32 h-full">
+              <div className="bg-gray-800 h-full rounded flex p-4 py-12 justify-center items-center transform border border-4 border-transparent hover:border-white">
                 <div className="title-font font-medium text-white">
                   {skill}
                 </div>
