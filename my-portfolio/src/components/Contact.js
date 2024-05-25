@@ -51,7 +51,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faInstagram} size="3x" className="mb-4 text-white" />
             </a>
           </div>
-          <div className="w-1/3 relative mb-4 items-center">
+          <div className="xl:w-1/3 w-2/3 relative mb-4 items-center">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
@@ -63,7 +63,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="w-1/3 relative mb-4">
+          <div className="xl:w-1/3 w-2/3 relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
@@ -75,7 +75,7 @@ export default function Contact() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="w-1/3 relative mb-4">
+          <div className="xl:w-1/3 w-2/3 relative mb-4">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
