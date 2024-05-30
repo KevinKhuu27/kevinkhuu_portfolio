@@ -6,7 +6,7 @@ export const projects = [
       "An application used to manage a Salsa Club built using front-end and back-end technology. Includes the use of forms, databases, and password authentication.",
     demo: "https://cps-406-shops--salsa-studio.firebaseapp.com/",
     code: "https://github.com/minhTMUstudent/CPS406_iteration_2_41",
-    image: "./project-4.gif",
+    image: "./project4.gif",
   },
   {
     title: "Sign-up Form",
@@ -15,7 +15,7 @@ export const projects = [
       "A sign-up form for users to login to a service. Incorporates UX and responsive web design features. ",
     demo: "https://kevinkhuu27.github.io/odin_signupForm/",
     code: "https://github.com/KevinKhuu27/odin_signupForm",
-    image: "./project-3.gif",
+    image: "./project3.gif",
   },
   {
     title: "Calculator",
@@ -42,7 +42,7 @@ export const projects = [
       "A text-based music player that allows users to create playlists, add/remove songs, and display lyrics. Built using Java, applying various concepts. Incorporates OOP, inheritance, and error handling.",
     demo: "https://github.com/KevinKhuu27/CPS209_musicSim",
     code: "https://github.com/KevinKhuu27/CPS209_musicSim",
-    image: "./project-4.gif",
+    image: "./project5.gif",
   },
 ];
 

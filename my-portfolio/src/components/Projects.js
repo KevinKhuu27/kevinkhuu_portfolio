@@ -11,7 +11,7 @@ export default function Projects() {
           </h1>
           <hr className="my-4 w-1/4 mx-auto"></hr>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-0">
           {projects.map((project) => (
             <a
               key={project.image}
